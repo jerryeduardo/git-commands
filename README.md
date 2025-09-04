@@ -105,29 +105,27 @@ Comandos Bash – Essenciais para Git Bash
 
 | Comando                          | Descrição                                                     | Exemplo prático                                                  |
 |----------------------------------|---------------------------------------------------------------|------------------------------------------------------------------|
-| `ls`                             | Lista os arquivos e pastas no diretório atual                 | `ls`                                                             |
+| `ls`                             | Lista os arquivos e pastas no diretório atual                 | `ls`                                                      |
 | `mkdir <pasta>`                  | Cria uma nova pasta no sistema de arquivos                    | `mkdir meu-projeto`                                              |
-| `cd <pasta>`                     | Acessa a pasta especificada                                   | `cd meu-projeto`                                                 |
-| `touch <arquivo>`                | Cria um arquivo vazio chamado README.me                       | `touch README.md`                                                |
+| `cd <pasta>`                     | Acessa a pasta especificada                                   | `cd meu-projeto`                                              |
+| `touch <arquivo>`                | Cria um arquivo vazio chamado README.me                       | `touch README.md`                                                       |
 | `touch <pasta>/.gitkeep`         | Cria um arquivo vazio para manter a pasta no Git              | `touch meu-projeto/.gitkeep`                                     |
-| `echo "conteúdo" > <arquivo>` | Cria um novo arquivo com conteúdo inicial usando redirecionamento | `echo "Comandos Git" > README.md`                                                        |
-| `echo <pasta>/ > .gitignore`     | Adiciona a pasta ao `.gitignore`                              | `echo meu-projeto/ > .gitignore`                                 |
-| `cd .git`                        | Acessa a pasta oculta de configurações do Git                 | `cd .git`                                                        |
-| `rm -rf .git`                    | Remove completamente o repositório Git local                  | `rm -rf .git`                                                    |
-| `cat config`                     | Exibe o conteúdo do arquivo de configuração do Git            | `cat config`                                                     |
-| `clear`                          | Limpa a tela do terminal                                      | `clear`                                                          |
-
-| `pwd`                            | Mostra o diretório atual                                      | `pwd`                                                            |
-| `ls -la`                         | Lista arquivos com detalhes e ocultos                         | `ls -la`                                                         |
-| `rm <arquivo>`                   | Remove arquivos                                               | `rm arquivo.txt`                                                 |	
+| `echo "conteúdo" > <arquivo>` | Cria um novo arquivo com conteúdo inicial usando redirecionamento | `echo "Comandos Git" > README.md`                                         |
+| `echo <pasta>/ > .gitignore`     | Adiciona a pasta ao `.gitignore`                              | `echo meu-projeto/ > .gitignore`                                |
+| `cd .git`                        | Acessa a pasta oculta de configurações do Git                 | `cd .git`                                                      |
+| `rm -rf .git`                    | Remove completamente o repositório Git local                  | `rm -rf .git`                                                      |
+| `cat config`                     | Exibe o conteúdo do arquivo de configuração do Git            | `cat config`                                                   |
+| `clear`                          | Limpa a tela do terminal                                      | `clear`                                                   |
+| `pwd`                            | Mostra o diretório atual                                      | `pwd`                                                     |
+| `ls -la`                         | Lista arquivos com detalhes e ocultos                         | `ls -la`                                                      |
+| `rm <arquivo>`                   | Remove arquivos                                               | `rm arquivo.txt`                                                      |	
 | `rm -r <pasta>`                  | Remove uma pasta e seu conteúdo                               | `rm -r pasta-antiga`                                             |
-| `mv <origem> <destino>`          | Move ou renomeia arquivos/pastas                              | `mv antigo.txt novo.txt`                                         |
-| `cp <origem> <destino>`          | Copia arquivos                                                | `cp arquivo.txt copia.txt`                                       |
-| `echo "texto"`                   | Imprime texto no terminal                                     | `echo "Olá, mundo"`                                              |
-| `cat <arquivo>`                  | Exibe o conteúdo de um arquivo                                | `cat README.md`                                                  |
-| `nano <arquivo>`                 | Edita arquivos diretamente no terminal                        | `nano README.md`                                                 |
-| `exit`                           | Encerra o terminal                                            | `exit`                                                           |
-| `chmod +x <arquivo>`             | Torna um arquivo executável                                   | `chmod +x script.sh`                                             |
-| `grep "texto" <arquivo>`         | Procura por texto dentro de arquivos                          | `grep "import" README.md`                                        |
-| `find . -name "<arquivo>"`       | Procura arquivos no diretório atual                           | `find . -name "*.py"`                                            |
-
+| `mv <origem> <destino>`          | Move ou renomeia arquivos/pastas                              | `mv antigo.txt novo.txt`                                                 |
+| `cp <origem> <destino>`          | Copia arquivos                                                | `cp arquivo.txt copia.txt`                                                |
+| `echo "texto"`                   | Imprime texto no terminal                                     | `echo "Olá, mundo"`                                                   |
+| `cat <arquivo>`                  | Exibe o conteúdo de um arquivo                                | `cat README.md`                                                       |
+| `nano <arquivo>`                 | Edita arquivos diretamente no terminal                        | `nano README.md`                                                       |
+| `exit`                           | Encerra o terminal                                            | `exit`                                                    |
+| `chmod +x <arquivo>`             | Torna um arquivo executável                                   | `chmod +x script.sh`                                                       |
+| `grep "texto" <arquivo>`         | Procura por texto dentro de arquivos                          | `grep "import" README.md`                                                |
+| `find . -name "<arquivo>"`       | Procura arquivos no diretório atual                           | `find . -name "*.py"`                                                      |
