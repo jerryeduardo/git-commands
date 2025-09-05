@@ -1,9 +1,10 @@
-atalho para o editor online Visual Studio Code do GitHub = .
+> [!TIP]
+> Atalho para o editor online Visual Studio Code do GitHub = .
 
-Comandos Git – Básicos e Avançados
+# Comandos Git – Básicos e Avançados
 
-| Comando                             | Descrição                                                                | Exemplo prático                                                  |
-|-------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------                                                    |
+| Comando                             | Descrição                                                                | Exemplo prático                                                   |
+|-------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------|
 | `git config --global`               | Define configurações globais do Git (nome, e-mail etc.)                  | `git config --global user.name "Seu Nome"`<br>`git config --global user.email "email@exemplo.com"` |
 | `git config user.name`              | Exibe o nome de usuário configurado no Git local                         | `git config user.name`                                           |
 | `git config user.email`             | Exibe o e-mail configurado no Git local                                  | `git config user.email`                                          |
@@ -84,10 +85,10 @@ Comandos Git – Básicos e Avançados
 | `git revert -n <hash>`              | Reverte um commit sem criar um novo commit automático                    | `git revert -n a1b2c3d`                                          |
 | `git rebase -i HEAD~3`              | Rebase interativo para editar, combinar ou remover os últimos 3 commits  | `git rebase -i HEAD~3`                                           |
 
-Comandos Bash – Essenciais para Git Bash
+# Comandos Bash – Essenciais para Git Bash
 
-| Comando                          | Descrição                                                     | Exemplo prático                                                   |
-|----------------------------------|---------------------------------------------------------------|------------------------------------------------------------------|
+| Comando                             | Descrição                                                                | Exemplo prático                                                   |
+|-------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------|
 | `ls`                             | Lista os arquivos e pastas no diretório atual                 | `ls`                                                      |
 | `mkdir <pasta>`                  | Cria uma nova pasta no sistema de arquivos                    | `mkdir meu-projeto`                                              |
 | `cd <pasta>`                     | Acessa a pasta especificada                                   | `cd meu-projeto`                                              |
