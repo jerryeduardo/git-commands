@@ -1,7 +1,7 @@
-> [!TIP]
+> [!IMPORTANT]
 > Atalho para o editor online Visual Studio Code do GitHub = .
 
-# Comandos Git – Básicos e Avançados
+## Comandos Git – Básicos e Avançados
 
 | Comando                             | Descrição                                                                | Exemplo prático                                                   |
 |-------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------|
@@ -85,7 +85,7 @@
 | `git revert -n <hash>`              | Reverte um commit sem criar um novo commit automático                    | `git revert -n a1b2c3d`                                          |
 | `git rebase -i HEAD~3`              | Rebase interativo para editar, combinar ou remover os últimos 3 commits  | `git rebase -i HEAD~3`                                           |
 
-# Comandos Bash – Essenciais para Git Bash
+## Comandos Bash – Essenciais para Git Bash
 
 | Comando                             | Descrição                                                                | Exemplo prático                                                   |
 |-------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------|
