@@ -1,4 +1,4 @@
-> [!IMPORTANT]
+> [!NOTE]
 > Atalho para o editor online Visual Studio Code do GitHub = .
 
 ## Comandos Git – Básicos e Avançados
