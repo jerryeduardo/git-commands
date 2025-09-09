@@ -3,10 +3,10 @@
 
 ## Comandos Git – Básicos e Avançados
 
-| Comando                             | Descrição                                                                | Exemplo prático                                                   |
-|-------------------------------------|--------------------------------------------------------------------------|------------------------------------------------------------------|
-| `git config --global`               | Define configurações globais do Git (nome, e-mail etc.)                  | `git config --global user.name "Seu Nome"`<br>`git config --global user.email "email@exemplo.com"` |
-| `git config user.name`              | Exibe o nome de usuário configurado no Git local                         | `git config user.name`                                           |
+| Comando | Descrição | Exemplo prático |
+|---------|-----------|-----------------|
+| `git config --global` | Define configurações globais do Git (nome, e-mail etc.) | `git config --global user.name "Seu Nome"`<br>`git config --global user.email "email@exemplo.com"` |
+| `git config user.name` | Exibe o nome de usuário configurado no Git local | `git config user.name` |
 | `git config user.email`             | Exibe o e-mail configurado no Git local                                  | `git config user.email`                                          |
 | `git config init.defaultBranch`     | Exibe o nome padrão da branch inicial ao criar novos repositórios        | `git config init.defaultBranch`                                  |
 | `git config --global init.defaultBranch <branch>`       | Define `main` como a branch padrão para novos repositórios               | `git config --global init.defaultBranch main`                                                     |
