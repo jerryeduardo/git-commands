@@ -37,9 +37,10 @@
 | `git branch -d <branch>`            | Exclui a branch local chamada `sandbox`                                  | `git branch -d sandbox`                                          |
 | `git remote add origin <url>`       | Conecta um repositório remoto a um existente localmente                  | `git remote add origin https://github.com/user/repo.git`         |
 | `git remote -v`                     | Lista os repositórios remotos configurados                               | `git remote -v`                                                  |
-| `git push -u origin <branch>`       | Envia a branch "main" e define upstream                                  | `git push -u origin main`                                        |
-| `git push --force origin <branch>`  | Força commit após usar o --amend localmente e já ter enviado o mesmo commit anteriomente para o repositório remoto | `git push --force origin main`   |
-| `git push origin <branch>`          | Envia os commits para o repositório remoto                               | `git push origin main`                                           |
+| `git push origin <branch>`          | Envia os commits para o repositório remoto                                     | `git push origin main` |
+| `git push -u origin <branch>`          | Envia os commits para o repositório remoto origin e define o upstream — ou seja, vincula a branch local à sua contraparte remota. Isso permite que, nos próximos comandos git push ou git pull, você não precise especificar o nome do remoto nem da branch.                                     | `git push -u origin main` |
+| `git push --force origin <branch>`  | Força o envio de alterações no histórico local após uso do --amend ou rebase -i, quando o commit já foi enviado anteriormente para o repositório remoto especificado e a branch indicada | `git push --force origin main`   |
+| `git push --force`  | Força o envio de alterações no histórico local após uso do --amend ou rebase -i, quando o commit já foi enviado anteriormente para o repositório remoto associado à branch atual | `git push --force`   |
 | `git pull origin <branch>`          | Baixa e mescla alterações do repositório remoto                          | `git pull origin main`                                           |
 | `git fetch <repositório>`           | Baixa alterações do repositório remoto sem mesclar                       | `git fetch origin`                                               |
 | `git fetch <repositório> <branch>`  | Busca atualizações da branch `main` do repositório remoto                | `git fetch origin main`                                          |
@@ -83,7 +84,7 @@
 | `git apply <patch>`                 | Aplica um patch manualmente                                              | `git apply correcoes.patch`                                      |
 | `git am`                            | Aplica commits formatados como e-mail                                    | `git am <arquivo.eml>`                                           |
 | `git revert -n <hash>`              | Reverte um commit sem criar um novo commit automático                    | `git revert -n a1b2c3d`                                          |
-| `git rebase -i HEAD~3`              | Rebase interativo para editar, combinar ou remover os últimos 3 commits  | `git rebase -i HEAD~3`                                           |
+| `git rebase -i HEAD~3`              | Rebase interativo para editar, combinar ou remover os últimos 3 commits. Ao abrir o editor, altere pick para reword no commit cuja mensagem deseja modificar. Isso permitirá editar a mensagem desse commit.  | `git rebase -i HEAD~3`                                           |
 
 ## Comandos Bash – Essenciais para Git Bash
 
