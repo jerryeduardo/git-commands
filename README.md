@@ -27,6 +27,7 @@
 | `git add <arquivo>` | Adiciona um arquivo específico à área de staging | `git add README.md` |
 | `git add .` | Adiciona todos os arquivos modificados à área de staging | `git add .` |
 | `git commit -m "mensagem"` | Salva alterações com uma mensagem descritiva | `git commit -m "docs: Adiciona README"` |
+| `git commit -m "mensagem" -m "mensagem"` | Salva alterações com uma mensagem descritiva composta por um título e um corpo explicativo | `git commit -m "feat: criar pasta temp_faded_<name_final> para separar execuções" -m "Relaciona-se à atualização v1.8"` |
 | `git commit -a -m "mensagem"` | Adiciona e commita arquivos rastreados (sem `git add`) | `git commit -a -m "docs: Atualiza README"` |
 | `git commit --amend -m "mensagem"` | Altera a mensagem do último commit | `git commit --amend -m "docs: Corrige descrição"` |
 | `git commit --amend (esc,:,w,q)` | Edita o último commit via editor Vim | `git commit --amend` |
