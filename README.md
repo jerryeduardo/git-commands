@@ -61,6 +61,7 @@
 | `git reset --soft <hash>` | Restaura o commit e mantém tudo na staging | `git reset --soft a1b2c3d` |
 | `git restore <arquivo>` | Restaura um arquivo para o último commit | `git restore README.md` |
 | `git reset <arquivo>` | Remove um arquivo da área de staging | `git reset README.md` |
+| `git reset HEAD~1` | Remove o último commit, mas mantém as alterações no diretório de trabalho. Após isso, execute novamente os comandos: `git add .`, `git commit -m "mensagem"` e `git push origin main --force` para sobrescrever o histórico remoto | `git reset HEAD~1` |
 | `git reflog` | Mostra o histórico de referências (inclusive commits perdidos) | `git reflog` |
 | `git restore --staged <arquivo>` | Remove o arquivo da staging sem apagar alterações locais | `git restore --staged README.md` |
 | `git tag <nome>` | Cria uma tag (marca) em um commit específico | `git tag v1.0` |
